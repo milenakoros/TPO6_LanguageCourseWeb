@@ -4,7 +4,7 @@
 <html>
 <head>
   <title>Kursy Szkoły Językowej</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
 <div class="header">Kursy Szkoły Językowej SpeakEasy </div>

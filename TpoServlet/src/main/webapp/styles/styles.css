@@ -1,4 +1,10 @@
 body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -8,7 +14,7 @@ body {
 .table-container {
     margin: 20px auto;
     width: 80%;
-    background-color: #fff;
+    background-color: rgba(231, 201, 192, 0.86);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
@@ -52,15 +58,25 @@ tr:hover {
     text-align: center;
 }
 
-.search-box input[type="text"], .search-box input[type="submit"] {
+.search-box input[type="text"], .search-box input[type="submit"], .search-box select {
     padding: 10px;
     margin-right: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-size: 16px; /* Powiększenie czcionki */
+    width: 200px; /* Szerokość pola wyboru */
 }
 
 .search-box input[type="submit"] {
     background-color: #f05053;
     color: white;
     cursor: pointer;
+}
+
+.search-box select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Powiększenie czcionki */
+    width: 220px; /* Szerokość pola wyboru */
 }
