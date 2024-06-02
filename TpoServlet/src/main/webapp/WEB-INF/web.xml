@@ -9,16 +9,9 @@
         <servlet-class>pjwstk.tpo.tposervlet.KursServlet</servlet-class>
     </servlet>
 
-    <!-- Mapowanie dla strony domyślnej i wyszukiwania -->
     <servlet-mapping>
         <servlet-name>KursServlet</servlet-name>
         <url-pattern></url-pattern>
     </servlet-mapping>
-
-
-    <!-- Usuń welcome-file-list, jeśli używasz serwletu jako strony domyślnej -->
-    <!-- <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
-    </welcome-file-list> -->
 
 </web-app>
